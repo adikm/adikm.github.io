@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on Java vs GoLang</title>
+    <link>/tags/html/</link>
+    <description>Recent content in HTML on Java vs GoLang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basics</title>
+      <link>/basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/basics/</guid>
+      <description>Hello World Java public static void main(String[] args) { System.out.println(&amp;#34;Hello, World&amp;#34;); }  GoLang func main() { fmt.Println(&amp;#34;hello world&amp;#34;) }   Variables &amp;amp; constants Java var a = 1; int b; final var hello = &amp;#34;Hello&amp;#34;  GoLang var a = 1 var b Int c := 1 // inside functions const hello = &amp;#34;Hello&amp;#34;   Strings I Java var name = &amp;#34;John&amp;#34;; var lastName = &amp;#34;Smith&amp;#34;; var text = &amp;#34;My name is: &amp;#34; &amp;#43; name &amp;#43; &amp;#34; &amp;#34; &amp;#43; lastName; var text2 = String.</description>
+    </item>
+    
+    <item>
+      <title>Data Structures</title>
+      <link>/data_structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/data_structures/</guid>
+      <description>Arrays Java String cars[] = new String[] { &amp;#34;Toyota&amp;#34;, &amp;#34;Mercedes&amp;#34;, &amp;#34;BMW&amp;#34;, &amp;#34;Volkswagen&amp;#34;, &amp;#34;Skoda&amp;#34; }; System.out.println(cars[1]); // Mercedes  GoLang cars := []string{&amp;#34;Toyota&amp;#34;, &amp;#34;Mercedes&amp;#34;, &amp;#34;BMW&amp;#34;, &amp;#34;Volkswagen&amp;#34;, &amp;#34;Skoda&amp;#34;} fmt.Println(cars[1]) // Mercedes   Multidimensional array Java String langs[][] = new String[][]{{&amp;#34;C#&amp;#34;, &amp;#34;C&amp;#34;, &amp;#34;Python&amp;#34;}, {&amp;#34;Java&amp;#34;, &amp;#34;Scala&amp;#34;, &amp;#34;Perl&amp;#34;}, {&amp;#34;C&amp;#43;&amp;#43;&amp;#34;, &amp;#34;Go&amp;#34;, &amp;#34;HTML&amp;#34;}}  GoLang langs := [3][3]string{{&amp;#34;C#&amp;#34;, &amp;#34;C&amp;#34;, &amp;#34;Python&amp;#34;}, {&amp;#34;Java&amp;#34;, &amp;#34;Scala&amp;#34;, &amp;#34;Perl&amp;#34;}, {&amp;#34;C&amp;#43;&amp;#43;&amp;#34;, &amp;#34;Go&amp;#34;, &amp;#34;HTML&amp;#34;}}    Lists Java List&amp;lt;String&amp;gt; letters = List.of(&amp;#34;a&amp;#34;, &amp;#34;b&amp;#34;, &amp;#34;c&amp;#34;, &amp;#34;d&amp;#34;); letters.</description>
+    </item>
+    
+    <item>
+      <title>Structures</title>
+      <link>/structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/structures/</guid>
+      <description>Basic structure Java public class Student { private String name; private int age; public Student(String name, String age) { this.name = name; this.age = age; } }  GoLang type Student struct { Name string Age int }    Object initialization Java var student = new Student(&amp;#34;John&amp;#34;, 18);  GoLang student := Student{&amp;#34;John&amp;#34;, 18}   Optional arguments in initialization Java public class Student { private String name; private int age; public Student(String name) { this.</description>
+    </item>
+    
+  </channel>
+</rss>
